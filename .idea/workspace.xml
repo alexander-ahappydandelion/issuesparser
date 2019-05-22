@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0043d57c-e6bc-4eb8-9706-050ce65faa18" name="Default Changelist" comment="" />
+    <list default="true" id="0043d57c-e6bc-4eb8-9706-050ce65faa18" name="Default Changelist" comment="added CroogleParser tests&#10;added IRecordParser tests">
+      <change afterPath="$PROJECT_DIR$/src/test/java/parsers/CroogleParserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/parsers/IRecordParserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/parsers/CroogleParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parsers/CroogleParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/parsers/CroogleParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/parsers/CroogleParser.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,7 +24,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/parsers/YouTrackParserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5422">
+            <state relative-caret-position="-5647">
               <caret line="13" column="67" selection-start-line="13" selection-start-column="67" selection-end-line="13" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -30,8 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/parsers/CroogleParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2530">
-              <caret line="115" column="13" selection-start-line="115" selection-start-column="13" selection-end-line="115" selection-end-column="13" />
+            <state relative-caret-position="1782">
+              <caret line="81" column="47" lean-forward="true" selection-start-line="81" selection-start-column="47" selection-end-line="81" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,8 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/parsers/YouTrackParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="32" />
+            <state relative-caret-position="110">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,10 +58,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/deserializer/AssigneeDeserializer.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/parsers/CroogleParserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="2354">
+              <caret line="107" column="36" selection-start-line="107" selection-start-column="36" selection-end-line="107" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,20 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/issues/Assignee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/issues/GeneralIssue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+            <state relative-caret-position="403">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,8 +97,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/parsers/IRecordParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+            <state relative-caret-position="108">
+              <caret line="28" column="40" lean-forward="true" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/parsers/IRecordParserTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4290">
+              <caret line="195" column="30" selection-start-line="195" selection-start-column="30" selection-end-line="195" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,8 +130,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+            <state relative-caret-position="164">
+              <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -144,6 +150,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -154,17 +163,19 @@
         <option value="$PROJECT_DIR$/src/main/java/exceptions/AmbiguousTagValueException.java" />
         <option value="$PROJECT_DIR$/src/main/java/exceptions/UnexpectedEOIException.java" />
         <option value="$PROJECT_DIR$/src/main/java/exceptions/MismatchPatternException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/parsers/CroogleParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/parsers/AssigneeDeserializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/exceptions/CroogleException.java" />
         <option value="$PROJECT_DIR$/src/main/java/parsers/YouTrackParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/issues/GeneralIssue.java" />
-        <option value="$PROJECT_DIR$/src/main/java/issues/Assignee.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/parsers/YouTrackParserTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/deserializer/AssigneeDeserializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/parsers/IRecordParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/main/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/parsers/CroogleParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/issues/Assignee.java" />
+        <option value="$PROJECT_DIR$/src/test/java/parsers/CroogleParserTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/parsers/IRecordParserTest.java" />
       </list>
     </option>
   </component>
@@ -181,6 +192,7 @@
     <option name="width" value="1440" />
     <option name="height" value="797" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -210,14 +222,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="issuesparser" type="b2602c69:ProjectViewProjectNode" />
-              <item name="issuesparser" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="deserializer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="issuesparser" type="b2602c69:ProjectViewProjectNode" />
@@ -312,7 +316,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.CroogleParserTest.parseSingleCorrectIssueReturnsCorrectSummary">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.Main" />
       <module name="issuesparser" />
@@ -326,76 +330,75 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="YouTrackParserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CroogleParserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="issuesparser" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="deserializer.*" />
+          <option name="PATTERN" value="parsers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="parsers" />
-      <option name="MAIN_CLASS_NAME" value="parsers.YouTrackParserTest" />
+      <option name="MAIN_CLASS_NAME" value="parsers.CroogleParserTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="YouTrackParserTest.parseMixedEntriesReturnsCorrectNumberOfIssues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CroogleParserTest.parseSingleCorrectIssueReturnsCorrectSummary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="issuesparser" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="deserializer.*" />
+          <option name="PATTERN" value="parsers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="parsers" />
-      <option name="MAIN_CLASS_NAME" value="parsers.YouTrackParserTest" />
-      <option name="METHOD_NAME" value="parseMixedEntriesReturnsCorrectNumberOfIssues" />
+      <option name="MAIN_CLASS_NAME" value="parsers.CroogleParserTest" />
+      <option name="METHOD_NAME" value="parseSingleCorrectIssueReturnsCorrectSummary" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="YouTrackParserTest.parseMixedEntriesReturnsCorrectOldSummary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CroogleParserTest.parseTwoCorrectIssuesReturnsCorrectSummary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="issuesparser" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="deserializer.*" />
+          <option name="PATTERN" value="parsers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="parsers" />
-      <option name="MAIN_CLASS_NAME" value="parsers.YouTrackParserTest" />
-      <option name="METHOD_NAME" value="parseMixedEntriesReturnsCorrectOldSummary" />
+      <option name="MAIN_CLASS_NAME" value="parsers.CroogleParserTest" />
+      <option name="METHOD_NAME" value="parseTwoCorrectIssuesReturnsCorrectSummary" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="YouTrackParserTest.parseSingleNewEntryReturnCorrectPosition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IRecordParserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="issuesparser" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="deserializer.*" />
+          <option name="PATTERN" value="parsers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="parsers" />
-      <option name="MAIN_CLASS_NAME" value="parsers.YouTrackParserTest" />
-      <option name="METHOD_NAME" value="parseSingleNewEntryReturnCorrectPosition" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="parsers.IRecordParserTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CroogleParserTest.parseSingleCorrectIssueReturnsCorrectSummary" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.YouTrackParserTest" />
-        <item itemvalue="JUnit.YouTrackParserTest.parseMixedEntriesReturnsCorrectOldSummary" />
-        <item itemvalue="JUnit.YouTrackParserTest.parseMixedEntriesReturnsCorrectNumberOfIssues" />
-        <item itemvalue="JUnit.YouTrackParserTest.parseSingleNewEntryReturnCorrectPosition" />
+        <item itemvalue="JUnit.IRecordParserTest" />
+        <item itemvalue="JUnit.CroogleParserTest" />
+        <item itemvalue="JUnit.CroogleParserTest.parseTwoCorrectIssuesReturnsCorrectSummary" />
       </list>
     </recent_temporary>
   </component>
@@ -412,50 +415,50 @@
       <workItem from="1558183212493" duration="5184000" />
       <workItem from="1558285253943" duration="15686000" />
       <workItem from="1558377356876" duration="173000" />
-      <workItem from="1558461787638" duration="731000" />
+      <workItem from="1558461787638" duration="1249000" />
+      <workItem from="1558523501498" duration="5073000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="YouTrackParserTest_parseMixedEntriesReturnsCorrectOldSummary - 2019.05.20 at 17h 28m 40s.xml">
-      <configuration name="YouTrackParserTest.parseMixedEntriesReturnsCorrectOldSummary" configurationId="JUnit" />
+    <history-entry file="IRecordParserTest - 2019.05.22 at 15h 09m 15s.xml">
+      <configuration name="IRecordParserTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="YouTrackParserTest_parseMixedEntriesReturnsCorrectOldSummary - 2019.05.20 at 17h 28m 47s.xml">
-      <configuration name="YouTrackParserTest.parseMixedEntriesReturnsCorrectOldSummary" configurationId="JUnit" />
+    <history-entry file="IRecordParserTest - 2019.05.22 at 15h 09m 57s.xml">
+      <configuration name="IRecordParserTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="YouTrackParserTest_parseMixedEntriesReturnsCorrectOldSummary - 2019.05.20 at 17h 30m 47s.xml">
-      <configuration name="YouTrackParserTest.parseMixedEntriesReturnsCorrectOldSummary" configurationId="JUnit" />
+    <history-entry file="IRecordParserTest_parseIssuesListWithAdditionalInfoReturnsIssuesList - 2019.05.22 at 15h 16m 53s.xml">
+      <configuration name="IRecordParserTest.parseIssuesListWithAdditionalInfoReturnsIssuesList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="YouTrackParserTest - 2019.05.20 at 17h 30m 59s.xml">
-      <configuration name="YouTrackParserTest" configurationId="JUnit" />
+    <history-entry file="IRecordParserTest_parseDamagedIssuesListReturnsCorrectNumberOfIssues - 2019.05.22 at 15h 21m 35s.xml">
+      <configuration name="IRecordParserTest.parseDamagedIssuesListReturnsCorrectNumberOfIssues" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="YouTrackParserTest - 2019.05.20 at 17h 32m 38s.xml">
-      <configuration name="YouTrackParserTest" configurationId="JUnit" />
+    <history-entry file="IRecordParserTest - 2019.05.22 at 15h 22m 44s.xml">
+      <configuration name="IRecordParserTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="YouTrackParserTest - 2019.05.20 at 17h 33m 09s.xml">
-      <configuration name="YouTrackParserTest" configurationId="JUnit" />
+    <history-entry file="CroogleParserTest_parseTwoCorrectIssuesReturnsCorrectSummary - 2019.05.22 at 16h 45m 50s.xml">
+      <configuration name="CroogleParserTest.parseTwoCorrectIssuesReturnsCorrectSummary" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="YouTrackParserTest - 2019.05.20 at 17h 33m 27s.xml">
-      <configuration name="YouTrackParserTest" configurationId="JUnit" />
+    <history-entry file="CroogleParserTest - 2019.05.22 at 16h 50m 11s.xml">
+      <configuration name="CroogleParserTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="YouTrackParserTest - 2019.05.20 at 17h 34m 41s.xml">
-      <configuration name="YouTrackParserTest" configurationId="JUnit" />
+    <history-entry file="CroogleParserTest - 2019.05.22 at 16h 50m 31s.xml">
+      <configuration name="CroogleParserTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="YouTrackParserTest - 2019.05.20 at 17h 35m 08s.xml">
-      <configuration name="YouTrackParserTest" configurationId="JUnit" />
+    <history-entry file="IRecordParserTest - 2019.05.22 at 16h 52m 18s.xml">
+      <configuration name="IRecordParserTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="YouTrackParserTest - 2019.05.20 at 17h 35m 24s.xml">
-      <configuration name="YouTrackParserTest" configurationId="JUnit" />
+    <history-entry file="IRecordParserTest - 2019.05.22 at 16h 52m 48s.xml">
+      <configuration name="IRecordParserTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21774000" />
+    <option name="totallyTimeSpent" value="27365000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -474,7 +477,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32961586" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.32961586" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -518,6 +521,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added CroogleParser tests&#10;added IRecordParser tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="added CroogleParser tests&#10;added IRecordParser tests" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/javax/xml/parsers/DocumentBuilder.java">
@@ -605,13 +612,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/parsers/ParseException.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/deserializer/AssigneeDeserializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/issues/GeneralIssue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
+        <state relative-caret-position="440">
           <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar!/com/google/gson/Gson.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9636">
+          <caret line="491" column="26" selection-start-line="491" selection-start-column="26" selection-end-line="491" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -626,64 +651,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar!/com/google/gson/Gson.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9636">
-          <caret line="491" column="26" selection-start-line="491" selection-start-column="26" selection-end-line="491" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/issues/Assignee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/parsers/YouTrackParserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5422">
-          <caret line="13" column="67" selection-start-line="13" selection-start-column="67" selection-end-line="13" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parsers/ParseException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/deserializer/AssigneeDeserializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parsers/IRecordParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/parsers/CroogleParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2530">
-          <caret line="115" column="13" selection-start-line="115" selection-start-column="13" selection-end-line="115" selection-end-column="13" />
+        <state relative-caret-position="1782">
+          <caret line="81" column="47" lean-forward="true" selection-start-line="81" selection-start-column="47" selection-end-line="81" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -692,8 +663,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/parsers/YouTrackParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="32" />
+        <state relative-caret-position="110">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/issues/Assignee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/parsers/IRecordParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="28" column="40" lean-forward="true" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/parsers/CroogleParserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2354">
+          <caret line="107" column="36" selection-start-line="107" selection-start-column="36" selection-end-line="107" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/parsers/IRecordParserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4290">
+          <caret line="195" column="30" selection-start-line="195" selection-start-column="30" selection-end-line="195" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/parsers/YouTrackParserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5647">
+          <caret line="13" column="67" selection-start-line="13" selection-start-column="67" selection-end-line="13" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -702,8 +723,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+        <state relative-caret-position="164">
+          <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -10,10 +10,10 @@ import jdk.nashorn.internal.runtime.ParserException;
 import java.util.*;
 
 public class CroogleParser {
-    private static final String ASSIGNE_START = "Assigne: ";
+    private static final String ASSIGNEE_START = "Assignee: ";
     private static final String SUMMARY_START = "## ";
 
-    private static final int ASSIGNE_OFFSET = 9;
+    private static final int ASSIGNEE_OFFSET = 10;
     private static final int SUMMARY_OFFSET = 3;
 
     public static List<GeneralIssue> parse(String src) {
@@ -41,7 +41,6 @@ public class CroogleParser {
     private static GeneralIssue nextIssue(ListIterator<String> iter) throws MismatchPatternException, UnexpectedEOIException {
         String summary = nextSummary(iter, 0);
         Assignee assignee = nextAssignee(iter, 1);
-        nextNewLine(iter, 2);
 
         return new GeneralIssue(summary, assignee);
     }
@@ -80,41 +79,16 @@ public class CroogleParser {
         
         String line = iter.next();
 
-        if (!line.startsWith(ASSIGNE_START)) {
+        if (!line.startsWith(ASSIGNEE_START)) {
             throw new MismatchPatternException("Assignee line doesn't match the pattern");
         }
 
-        return new Assignee(line.substring(ASSIGNE_OFFSET));
+        return new Assignee(line.substring(ASSIGNEE_OFFSET));
     }
 
     private static Assignee nextAssignee(ListIterator<String> iter, int rollback) throws MismatchPatternException, UnexpectedEOIException {
         try {
             return nextAssignee(iter);
-        } catch (CroogleException e) {
-            for (int i = 0; i < rollback; ++i) {
-                iter.previous();
-            }
-
-            throw e;
-        }
-    }
-
-    private static void nextNewLine(ListIterator<String> iter) throws UnexpectedEOIException, MismatchPatternException {
-        if (!iter.hasNext()) {
-            throw new UnexpectedEOIException();
-        }
-        
-        String line = iter.next();
-
-        if (!line.isEmpty()) {
-            iter.previous();
-            throw new MismatchPatternException("New line doesn't match the pattern");
-        }
-    }
-
-    private static void nextNewLine(ListIterator<String> iter, int rollback) throws MismatchPatternException, UnexpectedEOIException {
-        try {
-            nextNewLine(iter);
         } catch (CroogleException e) {
             for (int i = 0; i < rollback; ++i) {
                 iter.previous();
